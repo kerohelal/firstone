@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Login Page</title>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/login.css">
+            <link rel="stylesheet" href="css/all.min.css">
+            <script src="js/login.js"></script>
+        </head>
+
+        <body>
+             <div class="header">
+                <div class="navbar">
+                    <div class="container">
+                        <div class="logo">
+                            <a href="home.html">Tech <span>warrioRs</span></a>
+                        </div>
+                        <div class="first-list">
+                          <ul>
+                              <li><a href="smartphones.html">smartphone</a></li>
+                              <li><a href="tablets.html">tablets</a></li>
+                              <li><a href="accessories.html">accessories</a></li>
+                          </ul>
+                        </div>
+                                
+                        <a href="login.html" title="Sign in"><i class="far fa-user"></i></a>
+                        <div class="second-list">
+                            <ul>
+                                <li><a href="aboutus.html">about us</a></li>
+                            </ul>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="login-box">
+                <h1>Login</h1>
+                <div class="textbox">
+                    
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username" id="username" required>
+                </div>
+                
+                <div class="textbox">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" required>
+                </div>
+                
+                <input class="btn" type="submit" value="Sign in" onclick="welcome()">
+            </div>
+        </body>
+    </html>

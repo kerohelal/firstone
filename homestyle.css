@@ -1,0 +1,292 @@
+*
+{
+    margin: 0px;
+}
+/* starting body */
+body
+{
+    height: auto;
+}
+
+/* container */
+.container
+{
+    width:1170px;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+ul { list-style: none; }
+.header .navbar
+{
+    height: 60px;
+    overflow: hidden;
+
+}
+
+.header .navbar .logo
+{
+    padding:12px 0;
+    float: left;
+    font-family: sukar black;
+    font-size:25px;
+}
+.header .navbar .logo span { color:#0dae15 }
+
+.header  .first-list { padding-left: 20px; }
+.header  .first-list ul { float:left; }
+.header  .second-list { float:right; }
+
+.header  .first-list ul li,
+.header  .second-list ul li
+{
+    padding :20px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    float:left;
+}
+.discovery .container span {color:#0dae15}
+
+.header .second-list { padding-right: 10px; }
+.header .container a i
+{
+    float: right;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #000;
+}
+.header .first-list ul li a ,.header .second-list ul li a { padding:10px 15px; }
+.header .first-list ul li a:hover , .header .second-list ul li a:hover
+{
+    background: #f6b133;
+    border-radius: 80px;
+    color:white;
+}
+
+
+
+/* end nav */
+/* start slider */
+
+.header .slider
+{
+    background-image:url("../images/smartwatch3.jpg");
+    -webkit-background-size: cover;/*css3*/
+    -moz-background-size: cover;/*css3*/
+    -o-background-size: cover;/*css3*/
+    background-size: cover;/*css3*/ 
+    height: 900px; 
+
+}
+
+
+.header .slider .intro 
+{
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+    color:white;
+}
+
+.header .slider .intro h2
+{ 
+     margin:0 auto;
+     border-top: 4px solid white;
+     border-bottom: 4px solid white ;
+     width:600px;
+     font-size: 50px;
+     padding: 5px 0;
+     text-transform:capitalize;
+
+}
+
+.header .slider .intro span
+{
+    color:#0dae15;
+}
+
+
+/* end slider */
+
+
+
+/* end header */
+
+/* start discovery */
+.discovery
+{
+    padding-top:80px;
+    background:white;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.discovery h2
+{
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #f4a124 ;
+}
+
+.discovery .container div
+{
+    padding-top: 20px;
+    width:33.33333%;
+    float:left;
+}
+
+.discovery .container div img
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+/* end discovery */
+
+
+/* start new */
+
+.new
+{
+    padding-top:80px;
+    padding-bottom:50px;
+    overflow: hidden;
+    height:700px;
+    background: white;
+    text-align: center;
+}
+
+.new .container h2
+{
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #f4a124 ;
+}
+.new h2 span {color:blue;}
+.new .container .part1,
+.new .container .part2,
+.new .container .part3
+{
+    width:33.33333%;
+    float: left;
+    padding-top: 20px;
+}
+
+
+.new .container .part1 div,
+.new .container .part3 div
+{
+    padding-bottom: 20px;
+}
+.new .container div img
+{
+
+    border-radius: 20px;
+}
+
+
+
+/* end new */
+
+
+
+
+
+
+
+
+/* Start Before footer الحتة اللى قبل الفوتر */
+.part
+{overflow: hidden;}
+.part section:first-of-type
+{
+    padding:0;margin:0;
+    border:1px solid #CCC;
+    border-left: none;
+    float:left;
+    padding-left: 25px;
+}
+.part section:last-of-type
+{
+    padding:0;margin:0;
+    width:30%;
+    border:1px solid #CCC;
+    border-right:none;
+    float:left;
+    padding-left: 25px;
+    min-height: 240px;
+}
+.part section
+{
+    padding:0;margin:0;
+    width:30%;
+    border:1px solid #CCC;
+    float:left;
+    padding-left: 25px;
+    min-height: 240px;
+}
+.part section h2 {font-weight: normal;}
+.part ul 
+{
+    margin: 0;
+    padding: 0;
+}
+.part ul li
+{
+    padding:10px;
+    text-transform: capitalize;
+}
+/* End Before footer الحتة اللى قبل الفوتر */
+
+
+
+
+
+
+
+
+/* Start Footer */
+footer
+{
+    color:#757575;
+    font-size: 14px;
+    padding:20px 0;
+    overflow: hidden;
+}
+footer p { float:left; }
+footer ul { float:right; }
+footer ul li
+{
+    float:left;
+    text-decoration: none;
+    color:#000;
+    padding:0px 10px;
+}
+footer ul li i
+{
+    color:#000;
+    font-size: 20px;
+}
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+

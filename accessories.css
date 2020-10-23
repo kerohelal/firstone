@@ -1,0 +1,306 @@
+/* Start Main Rules */
+body
+{
+    background: #FAFAFA;
+    font-family: 'SamsungSharpSans', 'SamsungOneArabic', tahoma !important;
+    font-size: 14px;
+}
+.container
+{
+    width:1408px;
+    background: #FFF;
+    margin: 0 auto;
+}
+.clearfix { clear: both; }
+hr { border: 1px groove #999; }
+a
+{
+    text-decoration: none;
+    color:black;
+}
+ul { list-style: none; }
+/* End Main Rules */
+
+
+
+
+
+
+
+
+/* Start Header */
+header 
+{
+    height: 80px;
+    background: #FFF;
+    overflow: hidden;
+}
+header .logo
+{
+    padding:27px 0;
+    float: left;
+    font-family: sukar black;
+    font-size:25px;
+}
+header .logo span { color:#f6b133; }
+/* End Header */
+
+
+
+
+
+
+
+
+/* Start Nav */
+nav { overflow: hidden; }
+header nav .first-list { padding-left: 20px; }
+header nav .first-list ul { float:left; }
+header nav .second-list ul { float:right; }
+header nav .first-list ul li,
+header nav .second-list ul li
+{
+    padding :20px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    float:left;
+}
+header nav .second-list { padding-right: 150px; }
+nav i
+{
+    float: right;
+    margin:30px 62px;
+    font-size: 30px;
+    color: #000;
+}
+header nav ul li a { padding:10px 15px; }
+header nav ul li a:hover
+{
+    background: #f6b133;
+    border-radius: 80px;
+    color:white;
+}
+/* End Nav */
+
+
+
+
+
+
+
+
+
+/* Start Path */
+.path
+{
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+}
+.path ul
+{
+    margin: 0;
+    padding: 0;
+}
+.path ul li
+{
+    float :left;
+    text-transform: capitalize;
+    padding: 12px 0px;
+    font-size: 12px;
+}
+.path .all {font-weight: bold;}
+/* End Path */
+
+
+
+
+
+
+
+
+
+
+
+/* Start content */
+.content
+{
+    overflow:hidden;
+    background: #FAFAFA;
+}
+.content .top-product
+{
+    background-image:url("../images/Cover_acc.jpeg");
+    background-size: cover;
+    height: 500px;
+}
+aside
+{
+    width:20%;
+    background: white;
+    height: 1792px;
+    float:left;
+}
+aside h3
+{
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 25px;
+}
+aside .sections ul li
+{
+    text-transform: capitalize;
+    padding:10px 0;
+}
+aside hr
+{
+    margin:0 15px;
+    border: 1px groove #999;
+}
+.content .products
+{
+    width:80%;
+    float:right;
+}
+.content .products .taplets
+{
+    width:31.3333%;
+    height: 585px;
+    float:left;
+    background: #FFF;
+    margin:1% 0 0 1%;
+    box-shadow: 1px 1px 1px 2px #CCC;
+}
+.content .products .taplets .image
+{
+    width:313px;
+    margin: 10px 20px;
+    height: 310px;
+}
+.content .products .taplets .image img
+{
+    border-radius: 20px;
+}
+.content .products .taplets  button
+{
+    margin: 0 146px;
+    width:61px;
+    margin-top: 10px;
+}
+.content .products .taplets h2,
+.content .products .taplets h3
+{text-align: center;margin-top: 5px;}
+.content .products .taplets hr
+{
+    margin:0 15px;
+    border: 1px groove #999;
+}
+.content .products .taplets ul
+{
+    list-style-type: square;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.content .products .taplets a
+{
+    border: 2px solid #f6b133;
+    padding : 8px 39px;
+    border-radius: 30px;
+    margin: 0 90px;
+    margin-top: 10px ;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* End content */
+
+
+
+
+
+
+
+
+
+
+
+/* Start Before footer الحتة اللى قبل الفوتر*/
+.part
+{overflow: hidden;}
+.part section:first-of-type
+{
+    padding:0;margin:0;
+    border:1px solid #CCC;
+    border-left: none;
+    float:left;
+    padding-left: 25px;
+}
+.part section:last-of-type
+{
+    padding:0;margin:0;
+    width:30%;
+    border:1px solid #CCC;
+    border-right:none;
+    float:left;
+    padding-left: 25px;
+    min-height: 240px;
+}
+.part section
+{
+    padding:0;margin:0;
+    width:30%;
+    border:1px solid #CCC;
+    float:left;
+    padding-left: 25px;
+    min-height: 240px;
+}
+.part section h2 {font-weight: normal;}
+.part ul 
+{
+    margin: 0;
+    padding: 0;
+}
+.part ul li
+{
+    padding:10px;
+    text-transform: capitalize;
+}
+/* End Before footer الحتة اللى قبل الفوتر*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Footer */
+footer
+{
+    color:#757575;
+    font-size: 14px;
+    padding:20px 0;
+    overflow: hidden;
+}
+footer p { float:left; }
+footer ul { float:right; }
+footer ul li
+{
+    float:left;
+    text-decoration: none;
+    color:#000;
+    padding:0px 10px;
+}
+footer ul li i
+{
+    color:#000;
+    font-size: 20px;
+}
+/* End Footer */

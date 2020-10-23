@@ -1,0 +1,106 @@
+.container
+{
+    width:1408px;
+    margin:auto;
+}
+.clearfix { clear:both; }
+hr { border: 1px groove #999; }
+a
+{
+    text-decoration: none;
+    color:black;
+}
+ul { list-style: none; }
+
+
+
+
+/* Start Header */
+header 
+{
+    height: 80px;
+    background: #FFF;
+    overflow: hidden;
+}
+header .logo
+{
+    padding:27px 0;
+    float: left;
+    font-family: sukar black;
+    font-size:25px;
+}
+header .logo span { color:#f6b133; }
+/* End Header */
+
+
+
+
+
+
+
+
+/* Start Nav */
+nav { overflow: hidden; }
+header nav .first-list { padding-left: 20px; }
+header nav .first-list ul { float:left; }
+header nav .second-list ul { float:right; }
+header nav .first-list ul li,
+header nav .second-list ul li
+{
+    padding :20px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    float:left;
+}
+header nav .second-list { padding-right: 150px; }
+nav i
+{
+    float: right;
+    margin:30px 62px;
+    font-size: 30px;
+    color: #000;
+}
+header nav ul li a { padding:10px 15px; }
+header nav ul li a:hover
+{
+    background: #f6b133;
+    border-radius: 80px;
+    color:white;
+}
+/* End Nav */
+
+
+
+.About
+{
+    overflow: hidden ; 
+    border-top:4px solid #30B576;
+    padding:20px ;
+}
+
+.About .image-r,
+.About .image-l
+{
+    width : 40%;
+    padding-top: 10px ;
+    padding-bottom:10px ;
+}
+.About .image-r { float:right; }
+.About .image-l { float:left; }
+
+.About .Info-r,
+.About .Info-l
+{
+    width:50%;
+    margin-right: 10px;
+    padding-top: 50px;
+    background-color: #EEE;
+    text-align: center;
+    line-height: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+.About .Info-r { float:right; }
+.About .Info-l { float: left; }
+
+
